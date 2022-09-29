@@ -20,7 +20,7 @@ div {
     font-size: 28px;
     color: black;
 }
-.container-one p span {
+.container-one p {
     color: blue;
     font-size: 12px;
 }
@@ -42,13 +42,14 @@ div p {
     font-size: 12px;
     color: grey;
 }
-.container-one.container-two {
+.div.container-one.container-two {
     color: purple;
     font-size: 10px;
     text-transform: uppercase;
     font-weight: bold;
 }
-.container-one.container-two.container-one.container-two p span {
+section.container-one.container-one.container-two p, section.container-one.container-two span, p {
     color: orange;
-    font-size: 28px;
+    font-size: 28px;    
+    border-bottom: none;
 }
